@@ -1,12 +1,10 @@
 import React from 'react'
-import SummaryCards from './component/SummaryCards'
-import AddTransactions from './component/AddTransactions'
-
+import Dashboard from './component/Dashboard'
 const App = () => {
   return (
     <div>
-        <SummaryCards/>
-        <AddTransactions/>
+      <Dashboard/>
+        
     </div>
   )
 }
